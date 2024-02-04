@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/images/netflix-login-bg-image.jpeg");
+    height: 100%;
+}
+.netflix-logo{
+    width: 10%;
+    height: 10%;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+}
+.netflix-sign-in{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.netflix-login{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 25%;
+    min-height: 670px;
+    padding: 0 3rem 3rem 3rem;
+    border-radius: 6px;
+}
+.login-heading{
+    font-size: 2rem;
+    color: white;
+    margin-top:5rem ;
+}
+.userLogin{
+    width: 100%;
+    height: 2rem;
+    background: rgba(70, 90, 126, 0.4);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: 2rem;
+ 
+}
+.Signin-button{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(223, 43, 23);
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-top: 2rem;
+}
+
+form a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.sign-footer {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.sign-footer input {
+    height: 18px;
+    width: 18px;
+    margin-right: 1rem;
+}
+
+.sign-footer label {
+    color: white;
+}
+
+.netflix-signup {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+}
+
+.netflix-signup a {
+    color: white;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.netflix-learnmore {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.netflix-learnmore a{
+    color: blue;
+}
+.netflix-footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.netflix-footer h3{
+    color: white;  
+    padding-left: 230px;
+}
+
+.netflix-footer-list{
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.netflix-footer-list ul{
+    display: flex;
+    margin-left: 2rem;
+    list-style: none;
+  
+}
+.netflix-footer-list ul li{
+    padding-left: 200px;
+}
+.netflix-footer-options {
+    background-color: rgba(101, 101, 101, 0.2);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.netflix-footer-dropdown {
+    padding-left: 230px;
+    margin-top: 2rem;
+}
